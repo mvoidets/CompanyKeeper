@@ -139,8 +139,13 @@ const deleteEmployee = async () => {
     message: 'Enter employee ID to delete:',
   });
 
-  await queryDB('DELETE FROM employee WHERE id = $1', [id]);
-  console.log('Employee deleted successfully!');
+ // Delete dependent records from other tables
+ //await queryDB('DELETE FROM roles WHERE employee_id = $1', [id]);
+ //await queryDB('DELETE FROM departments WHERE employee_id = $1', [id]);
+
+ // Delete the employee record
+ await queryDB('DELETE FROM employee WHERE id = $1', [id]);
+ console.log('Employee and related records deleted successfully!');
 };
 
 export { addEmployee, viewEmployees, updateEmployee, deleteEmployee };
