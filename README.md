@@ -29,6 +29,9 @@
 ![Roles](assets/add_view_roles.png)![Department](assets/Add-View-Depart.png)
 ![exit](assets/exit.png)
 
+
+## [Check out a live view of the app!](https://app.screencastify.com/v2/manage/videos/gryqWqWWSqK5zvTPSsEQ)
+
 ## Contributor
 
     mvoidets 
