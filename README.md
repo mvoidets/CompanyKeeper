@@ -1,7 +1,7 @@
 
 # Title
 
-<h1>Employee Records</h1>
+<h1>CompanyKeeper</h1>
 
 ## Table of Contents
 
